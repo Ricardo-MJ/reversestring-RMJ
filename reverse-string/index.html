@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversor de texto</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-10">
+        <h1 class="text-center text-3xl font-bold mb-6">Inversor de texto</h1>
+        <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+            <input id="inputText" type="text" placeholder="Introduce un texto" class="w-full p-2 mb-4 border border-gray-300 rounded-md" />
+            <button id="reverseButton" class="w-full bg-blue-500 text-white p-2 mb-4 rounded-md hover:bg-blue-600">Generar texto invertido</button>
+            <textarea id="reversedText" readonly class="w-full p-2 mb-4 border border-gray-300 rounded-md"></textarea>
+            <button id="copyButton" class="w-full bg-gray-500 text-white p-2 rounded-md hover:bg-gray-600 disabled:opacity-50" disabled>Copiar al portapapeles</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
